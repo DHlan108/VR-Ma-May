@@ -1,0 +1,39 @@
+# Unity generated folders
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+
+# Package manager
+/Packages/
+
+# User preferences
+/userprefs/
+
+# Build / binary
+/bin/
+
+# Asset Store
+/Assets/AssetStoreTools*
+
+# IDE
+.vs/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Crash / temporary files
+*.swp
+*~
