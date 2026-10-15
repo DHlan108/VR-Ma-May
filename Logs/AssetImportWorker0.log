@@ -1,51 +1,49 @@
+Unity Editor version:    6000.3.13f1 (8c4f11e4fb20)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.5 (Build 24F74)
+Darwin version:          24.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Date:                    2026-10-15T04:56:11Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.3/staging' branch; Version is '6000.3.13f1 (8c4f11e4fb20) revision 9195281'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-10-14T16:45:45.4941065Z"
-OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16172 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-System  architecture: x64
-Process architecture: x64
-Date: 2026-10-14T16:45:45Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vietha" at "2026-10-15T04:56:11.848069Z"
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.3.13f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/6000.3.13f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/game/Ma May House
+/Users/vietha/Documents/MÃ MÂY/VR-Ma-May
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50381
+63574
 -licensingIpc
-LicenseClient-Admin
+LicenseClient-vietha
 -job-worker-count
-7
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
--name
-AssetImport
-Successfully changed project path to: E:/game/Ma May House
-E:/game/Ma May House
+-name AssetImport
+Successfully changed project path to: /Users/vietha/Documents/MÃ MÂY/VR-Ma-May
+/Users/vietha/Documents/MÃ MÂY/VR-Ma-May
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
-    "memorysetup-temp-allocator-size-gfx=262144"
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -66,14 +64,19 @@ E:/game/Ma May House
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [9996]  Target information:
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8566480640]  Target information:
 
-Player connection [9996]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 965435328 [EditorId] 965435328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DNS4833) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8566480640]  * "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 4214579134 [EditorId] 4214579134 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-cua-Viet.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [9996] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9996] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 7
+Player connection [8566480640] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8566480640] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,103 +87,102 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 57.12 ms, found 21 plugins.
-Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 2 native plugins for Editor in 2.47 ms.
+Refreshing native plugins compatible for Editor in 55.76 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 5.89 ms.
 Initialize engine version: 6000.3.13f1 (8c4f11e4fb20)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/game/Ma May House/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/vietha/Documents/MÃ MÂY/VR-Ma-May/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2584)
-    Vendor:   NVIDIA
-    VRAM:     6002 MB
-    Driver:   32.0.16.1047
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Mac GPU Family: 2
+Apple GPU Family: 7
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.13f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.13f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.3.13f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56619
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Admin"
-[Licensing::IpcConnector] LicenseClient-Admin channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-6000.3.13" at "2026-10-14T16:45:48.0302165Z"
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              61ada11f9e8c4aacafd7b634a0db09a4
-  Correlation Id:          85eb839fbf3cc517b7ad2e47d106ef98
-  External correlation Id: 5515086666346293658
-  Machine Id:              VWQV1gqID0V4oAWUa2fwXiO2Rc8=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin-6000.3.13" (connect: 0.00s, validation: 0.00s, handshake: 2.14s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-6000.3.13-notifications" at "2026-10-14T16:45:50.1780131Z"
-[Licensing::Module] Licensing Background thread has ended after 4.68s
-[Licensing::Module] Licensing is initialized (took 3.40s).
+  Version:                 1.18.3+d7ffd15
+  Session Id:              56bc40641f8b4f25b514e249a56278c0
+  Correlation Id:          5a32858f1d3b8171710634156b23ab80
+  External correlation Id: 335960803107143187
+  Machine Id:              PFyAc6H6Zko/QTUIfIY+JrtpLEI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-vietha" (connect: 0.00s, validation: 0.00s, handshake: 2.80s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vietha-notifications" at "2026-10-15T04:56:14.649806Z"
+[Licensing::Module] Licensing Background thread has ended after 2.80s
+[Licensing::Module] Licensing is initialized (took 0.56s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 18968353049050-UnityPersXXXX
+  Id: 18968438424850-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 3.445158 seconds.
-- Loaded All Assemblies, in  4.014 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.571431 seconds.
+- Loaded All Assemblies, in  1.408 seconds
 Native extension for Android target not found
-Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.420 seconds
-Domain Reload Profiling: 4432ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  1.032 seconds
+Domain Reload Profiling: 2444ms
+	BeginReloadAssembly (345ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (3507ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (204ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (640ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (340ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (196ms)
+		AnalyzeDomain (323ms)
+			TypeCache.Refresh (320ms)
+				TypeCache.ScanAssembly (280ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (420ms)
+	FinalizeReload (1037ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (380ms)
+		SetupLoadedEditorAssemblies (931ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (70ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (138ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (394ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.261 seconds
+- Loaded All Assemblies, in  4.392 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -189,23 +191,23 @@ AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 6.77 ms, found 21 plugins.
+Refreshing native plugins compatible for Editor in 5.57 ms, found 18 plugins.
 Native extension for Android target not found
-Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 8.34 ms, found 21 plugins.
-I1014 23:45:53.731380  9996 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
-I1014 23:45:53.783079  9996 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+Refreshing native plugins compatible for Editor in 8.65 ms, found 18 plugins.
+I1015 11:56:24.422037 2312991 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+I1015 11:56:24.473438 2312991 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-I1014 23:45:53.962511  9996 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
-I1014 23:45:54.010051  9996 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+I1015 11:56:24.953399 2312991 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+I1015 11:56:24.994398 2312991 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -217,82 +219,317 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.863 seconds
-Domain Reload Profiling: 3122ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  3.820 seconds
+Domain Reload Profiling: 8212ms
+	BeginReloadAssembly (305ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (39ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (57ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (939ms)
-		LoadAssemblies (604ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (3955ms)
+		LoadAssemblies (3263ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (461ms)
-			TypeCache.Refresh (324ms)
-				TypeCache.ScanAssembly (275ms)
-			BuildScriptInfoCaches (107ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1864ms)
+		AnalyzeDomain (817ms)
+			TypeCache.Refresh (542ms)
+				TypeCache.ScanAssembly (449ms)
+			BuildScriptInfoCaches (212ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (3823ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1589ms)
+		SetupLoadedEditorAssemblies (3227ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (179ms)
-			ProcessInitializeOnLoadAttributes (1130ms)
-			ProcessInitializeOnLoadMethodAttributes (258ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (293ms)
+			ProcessInitializeOnLoadAttributes (2530ms)
+			ProcessInitializeOnLoadMethodAttributes (374ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 15.15 ms, found 21 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10681 unused Assets / (7.4 MB). Loaded Objects now: 11575.
-Memory consumption went from 203.7 MB to 196.2 MB.
-Total: 57.032000 ms (FindLiveObjects: 5.081600 ms CreateObjectMapping: 6.402400 ms MarkObjects: 29.269400 ms  DeleteObjects: 16.270800 ms)
+[OVRPlugin][INFO] UnityPluginLoad called
+
+Launching external process: /Applications/Unity/Hub/Editor/6000.3.13f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 8.83 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10682 unused Assets / (2.5 MB). Loaded Objects now: 11568.
+Memory consumption went from 202.5 MB to 200.1 MB.
+Total: 138.476791 ms (FindLiveObjects: 25.240584 ms CreateObjectMapping: 3.907291 ms MarkObjects: 89.628875 ms  DeleteObjects: 19.699209 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 864979.521096 seconds.
-  path: Assets/QuickOutline/Resources/Shaders/OutlineFill.shader
-  artifactKey: Guid(4e76d4023d7e0411297c670f878973e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/QuickOutline/Resources/Shaders/OutlineFill.shader using Guid(4e76d4023d7e0411297c670f878973e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2580f3001b3a639e4bfa01a722a28e2b') in 0.1241744 seconds
+  Time since last request: 140293.035981 seconds.
+  path: Assets/Material/Material.007.mat
+  artifactKey: Guid(66c385efe8200ba44a0900e8ecb0d434) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Material.007.mat using Guid(66c385efe8200ba44a0900e8ecb0d434) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8138302431495ced8c4b7bb1dab6bbd5') in 0.159594833 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/QuickOutline/Resources/Materials/OutlineFill.mat
-  artifactKey: Guid(311313efa011949e98b6761d652ad13c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/QuickOutline/Resources/Materials/OutlineFill.mat using Guid(311313efa011949e98b6761d652ad13c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fb37c80c1558b4170c22769caa950e1') in 0.0670768 seconds
+  Time since last request: 0.000095 seconds.
+  path: Assets/Texture/SANNHA/tiles01_height.tif
+  artifactKey: Guid(d0c49ab5328b5a249a757688f12817d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/SANNHA/tiles01_height.tif using Guid(d0c49ab5328b5a249a757688f12817d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fe8d5073de7d894294d3c49c81ee8e7') in 0.080354625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/QuickOutline/Resources/Materials/OutlineMask.mat
-  artifactKey: Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/QuickOutline/Resources/Materials/OutlineMask.mat using Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffd7a4b37fcdc2ef5d20fff3dc260b71') in 0.0301764 seconds
+  Time since last request: 0.000102 seconds.
+  path: Assets/QuickOutline/Resources/Shaders/OutlineMask.shader
+  artifactKey: Guid(341b058cd7dee4f5cba5cc59a513619e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/QuickOutline/Resources/Shaders/OutlineMask.shader using Guid(341b058cd7dee4f5cba5cc59a513619e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7865b902a982106d99c99e8f60d50c59') in 0.01080225 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/QuickOutline/Samples/Scenes/QuickOutline.unity
-  artifactKey: Guid(f23712c79adc910408e872b127e825cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/QuickOutline/Samples/Scenes/QuickOutline.unity using Guid(f23712c79adc910408e872b127e825cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03a3a65b6dccd3759eef38b9f8e927d9') in 0.0234975 seconds
+  Time since last request: 0.000355 seconds.
+  path: Assets/Texture/SANNHA/tiles01_diffuse.jpg
+  artifactKey: Guid(f198ef98b26276e42986ab67e6932530) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/SANNHA/tiles01_diffuse.jpg using Guid(f198ef98b26276e42986ab67e6932530) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2fdbaa3ffc5a1adadaee7ba82fa99e65') in 0.016540625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Texture/GO/wood-47_height.jpg
+  artifactKey: Guid(a6ba8f9e06714b04289fbd0be6419981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/GO/wood-47_height.jpg using Guid(a6ba8f9e06714b04289fbd0be6419981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ddb3941bcf2a162c61e7f1eee79c322') in 0.019656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Texture/SANNHA/tiles02_height.tif
+  artifactKey: Guid(d9285d1fe35a8a240b3597700afe839f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/SANNHA/tiles02_height.tif using Guid(d9285d1fe35a8a240b3597700afe839f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44d1c85c97ace90b553131eb6c07736e') in 0.012574833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Scenes/Main VR Scene.unity
+  artifactKey: Guid(601e96cdd7e2adb4a9ac96d211cdb781) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Main VR Scene.unity using Guid(601e96cdd7e2adb4a9ac96d211cdb781) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b40765dde8213289e423411768222ea8') in 0.028290042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Texture/GO/wood-47_normal.jpg
+  artifactKey: Guid(14b351430e545a640a7ac953667d72ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/GO/wood-47_normal.jpg using Guid(14b351430e545a640a7ac953667d72ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd09098bad8da6096cae2199267f2a8df') in 0.011598792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Texture/MAINHA/roof-tiles-9_displacement.png
+  artifactKey: Guid(985a321b88e33fa4a954550de3166128) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/MAINHA/roof-tiles-9_displacement.png using Guid(985a321b88e33fa4a954550de3166128) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e1cb9ead339ac73bdf73eb17695432b') in 0.013933208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Material/Material.001.mat
+  artifactKey: Guid(62351569a5b302845bef9ecf82f54b5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Material.001.mat using Guid(62351569a5b302845bef9ecf82f54b5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21f8a79cdee614971e37dd0122b494b8') in 0.015748083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/QuickOutline
+  artifactKey: Guid(4ef18c09776f76c4a827c6b18c340ee5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/QuickOutline using Guid(4ef18c09776f76c4a827c6b18c340ee5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2cffce0c5db5e9003515d75141b10f9e') in 0.002419792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Material/Roof Tiles Red.mat
+  artifactKey: Guid(01fd8fbfcdbf7e14bb3ed7c3fbd93a95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Roof Tiles Red.mat using Guid(01fd8fbfcdbf7e14bb3ed7c3fbd93a95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72368815a22452ac680796b9dfca921c') in 0.022015125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Material/nentang22.mat
+  artifactKey: Guid(b64372677aa4c2045b6c547795dfe21b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/nentang22.mat using Guid(b64372677aa4c2045b6c547795dfe21b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07a6296a6cb2ffeb282127529fed2bb5') in 0.01044875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Model/B11.fbx
+  artifactKey: Guid(9b5b0d5a68c5ba44ebea73fb4a287dff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Model/B11.fbx using Guid(9b5b0d5a68c5ba44ebea73fb4a287dff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a187d088f3387daaacee46a695f7225d') in 0.113596333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Texture/metal03_roughness.jpg
+  artifactKey: Guid(3810ce505c0310145bffb5da155b28f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/metal03_roughness.jpg using Guid(3810ce505c0310145bffb5da155b28f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9861b8c8787a0abf326e7d049e662d67') in 0.012438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Texture/metal03_diffuse.jpg
+  artifactKey: Guid(f300db7fe0ac548478f72223e753678a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/metal03_diffuse.jpg using Guid(f300db7fe0ac548478f72223e753678a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fba492edcae12701bd4bd5522658ff4') in 0.011975542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Texture/MAINHA
+  artifactKey: Guid(0d9c15e385e52d4428d211f10b97f338) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/MAINHA using Guid(0d9c15e385e52d4428d211f10b97f338) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9ede8588df6915ac144aff53c2d464a') in 0.005924042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Model/nha.fbx
+  artifactKey: Guid(6783c17573732fc4abdf9bc5fbcb5c88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Model/nha.fbx using Guid(6783c17573732fc4abdf9bc5fbcb5c88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '056c5b5ae1dc8f07362c18cc8fe37c1c') in 0.303034375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 752
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Material/Material.011.mat
+  artifactKey: Guid(2167cd5aaa19e0847937818e66c10482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Material/Material.011.mat using Guid(2167cd5aaa19e0847937818e66c10482) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbcd5d7095888c7f0e153171fb00277b') in 0.0058605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.856057 seconds.
+  path: Assets/Model/C1.fbx
+  artifactKey: Guid(36149439031b5354cb0574fd254f875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/C1.fbx using Guid(36149439031b5354cb0574fd254f875a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b58545584161d9b865f642b6a29ce1e') in 14.201531708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Model/DUONG.fbx
+  artifactKey: Guid(1a69945fdef43ba4fa486e21849154a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/DUONG.fbx using Guid(1a69945fdef43ba4fa486e21849154a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13a9c1b700c7b0103b40eeb4b765b5d5') in 0.045677417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 23.85 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 6.23 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.9 MB). Loaded Objects now: 11690.
+Memory consumption went from 207.3 MB to 205.4 MB.
+Total: 186.511042 ms (FindLiveObjects: 3.095042 ms CreateObjectMapping: 0.937959 ms MarkObjects: 180.185541 ms  DeleteObjects: 2.289000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+libc++abi: terminate_handler unexpectedly returned
+Obtained 17 stack frames.
+Thread 0x16dbe7000 may have been prematurely finalized
+#0  0x00000190859388 in __pthread_kill
+Thread 0x16dbe7000 may have been prematurely finalized
+#1  0x0000019079bc60 in abort
+Thread 0x16dbe7000 may have been prematurely finalized
+#2  0x0000019084839c in __cxxabiv1::__aligned_malloc_with_fallback(unsigned long)
+Thread 0x16dbe7000 may have been prematurely finalized
+#3  0x000001908476bc in std::__terminate(void (*)())
+Thread 0x16dbe7000 may have been prematurely finalized
+#4  0x0000019084ac48 in __cxa_get_exception_ptr
+Thread 0x16dbe7000 may have been prematurely finalized
+libc++abi: terminate_handler unexpectedly returned
+#5  0x0000019084abf0 in __cxxabiv1::failed_throw(__cxxabiv1::__cxa_exception*)
+Thread 0x16dbe7000 may have been prematurely finalized
+#6  0x000001907c26a4 in std::__1::__throw_system_error[abi:ne190102](std::__1::error_code, char const*)
+Thread 0x16dbe7000 may have been prematurely finalized
+#7  0x000001907c2648 in std::__1::__throw_system_error[abi:ne190102](std::__1::error_code, char const*)
+Thread 0x16dbe7000 may have been prematurely finalized
+#8  0x000001907c4424 in std::__1::mutex::try_lock()
+Thread 0x16dbe7000 may have been prematurely finalized
+#9  0x00000346f1fa6c in oa::HealthCounters::get()
+Thread 0x16dbe7000 may have been prematurely finalized
+#10 0x00000346f0fd0c in oa::Analytics::analyticsTick()
+Thread 0x16dbe7000 may have been prematurely finalized
+#11 0x00000346f2aab8 in oculus::DispatchQueue::execTask(std::__1::shared_ptr<oculus::AsyncTask>)
+Thread 0x16dbe7000 may have been prematurely finalized
+#12 0x00000346f2ad48 in oculus::DispatchQueue::maybeDoDelayedTask()
+Thread 0x16dbe7000 may have been prematurely finalized
+#13 0x00000346f2a4ec in oculus::DispatchQueue::run()
+Thread 0x16dbe7000 may have been prematurely finalized
+#14 0x00000346f26a48 in asyncRun()
+Thread 0x16dbe7000 may have been prematurely finalized
+#15 0x00000346d2b004 in void* std::__1::__thread_proxy[abi:nqe210106]<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct>>, analyticsStartThread()::$_0>>(void*)
+Thread 0x16dbe7000 may have been prematurely finalized
+#16 0x00000190892c0c in _pthread_start
+Obtained 17 stack frames.
+Thread 0x345f37000 may have been prematurely finalized
+#0  0x00000190859388 in __pthread_kill
+Thread 0x345f37000 may have been prematurely finalized
+#1  0x0000019079bc60 in abort
+Thread 0x345f37000 may have been prematurely finalized
+#2  0x0000019084839c in __cxxabiv1::__aligned_malloc_with_fallback(unsigned long)
+Thread 0x345f37000 may have been prematurely finalized
+#3  0x000001908476bc in std::__terminate(void (*)())
+Thread 0x345f37000 may have been prematurely finalized
+#4  0x0000019084ac48 in __cxa_get_exception_ptr
+Thread 0x345f37000 may have been prematurely finalized
+#5  0x0000019084abf0 in __cxxabiv1::failed_throw(__cxxabiv1::__cxa_exception*)
+Thread 0x345f37000 may have been prematurely finalized
+#6  0x000001907c26a4 in std::__1::__throw_system_error[abi:ne190102](std::__1::error_code, char const*)
+Thread 0x345f37000 may have been prematurely finalized
+#7  0x000001907c2648 in std::__1::__throw_system_error[abi:ne190102](std::__1::error_code, char const*)
+Thread 0x345f37000 may have been prematurely finalized
+#8  0x000001907c4424 in std::__1::mutex::try_lock()
+Thread 0x345f37000 may have been prematurely finalized
+#9  0x000003480c46e0 in evsignal_dealloc
+Thread 0x345f37000 may have been prematurely finalized
+#10 0x000003480b2af0 in evsignal_dealloc
+Thread 0x345f37000 may have been prematurely finalized
+#11 0x000003480cf2f4 in evsignal_dealloc
+Thread 0x345f37000 may have been prematurely finalized
+#12 0x000003480cf584 in evsignal_dealloc
+Thread 0x345f37000 may have been prematurely finalized
+#13 0x000003480cecac in evsignal_dealloc
+Thread 0x345f37000 may have been prematurely finalized
+#14 0x000003480cba6c in evsignal_dealloc
+Thread 0x345f37000 may have been prematurely finalized
+#15 0x00000347ec6618 in OVR::DeveloperTelemetry::setFalcoConsentList(std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>>)
+Thread 0x345f37000 may have been prematurely finalized
+#16 0x00000190892c0c in _pthread_start
