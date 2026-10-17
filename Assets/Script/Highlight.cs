@@ -6,8 +6,8 @@ public class Highlight : MonoBehaviour
 {
     private Outline outline;
     
-    public Color hoverColor = Color.white;  // Màu viền khi đưa tay lại gần
-    public Color selectColor = Color.red;   // Màu viền khi nắm chặt
+    public Color hoverColor = new Color32(253, 176, 15, 255);  // Màu viền khi đưa tay lại gần
+    public Color selectColor = new Color32(104, 104, 104, 0);   // Màu viền khi nắm chặt
     public DoorController myDoors;
     void Start()
     {

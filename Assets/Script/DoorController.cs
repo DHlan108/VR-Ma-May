@@ -4,13 +4,16 @@ using System.Collections;
 public class DoorController : MonoBehaviour
 {
     [Header("Gắn 2 cánh cửa vào đây")]
-    public Transform leftDoor;  // Kéo Door
-    public Transform rightDoor; // Kéo Door.001
+    public Transform leftDoor;  
+    public Transform rightDoor; 
 
     [Header("Góc mở cửa")]
-    public float leftDoorOpenAngle = 90f;   // Cánh trái xoay 90 độ
-    public float rightDoorOpenAngle = -90f; // Cánh phải xoay ngược lại -90 độ
-    public float openSpeed = 2f;            // Tốc độ mở
+    public float leftDoorOpenAngle = -90f;   
+    public float rightDoorOpenAngle = 90f; 
+    public float openSpeed = 2f;            
+
+    [Header("Trạng thái ban đầu")]
+    public bool startOpen = true; // Đánh dấu tích để cửa mở sẵn lúc mới vào game
 
     private bool isOpen = false;
     private bool isMoving = false;
@@ -22,16 +25,28 @@ public class DoorController : MonoBehaviour
 
     void Start()
     {
-        // Lưu góc đóng ban đầu của 2 cửa
+        // 1. Code vẫn ngầm hiểu vị trí hiện tại trong Scene là góc ĐÓNG chuẩn xác
         leftClosedRot = leftDoor.localRotation;
         rightClosedRot = rightDoor.localRotation;
 
-        // Tính sẵn góc khi cửa mở hết (xoay quanh trục Y)
+        // 2. Tính toán sẵn góc MỞ
         leftOpenRot = leftClosedRot * Quaternion.Euler(0, leftDoorOpenAngle, 0);
         rightOpenRot = rightClosedRot * Quaternion.Euler(0, rightDoorOpenAngle, 0);
+
+        // 3. Nếu bạn muốn cửa mở sẵn, ép cửa nhảy sang góc mở ngay lập tức
+        if (startOpen)
+        {
+            leftDoor.localRotation = leftOpenRot;
+            rightDoor.localRotation = rightOpenRot;
+            isOpen = true; // Cập nhật hệ thống: cửa đang mở
+        }
+        else
+        {
+            isOpen = false;
+        }
     }
 
-    // Hàm này sẽ được gọi khi bạn tương tác bằng tay VR
+    // Hàm này được gọi khi tay cầm XR bấm Select
     public void ToggleDoubleDoors()
     {
         if (!isMoving)
@@ -43,7 +58,7 @@ public class DoorController : MonoBehaviour
     IEnumerator AnimateDoors()
     {
         isMoving = true;
-        isOpen = !isOpen; // Đổi trạng thái đóng/mở
+        isOpen = !isOpen; // Đảo trạng thái
 
         Quaternion targetLeft = isOpen ? leftOpenRot : leftClosedRot;
         Quaternion targetRight = isOpen ? rightOpenRot : rightClosedRot;
@@ -52,12 +67,11 @@ public class DoorController : MonoBehaviour
         while (time < 1)
         {
             time += Time.deltaTime * openSpeed;
-            // Xoay cả 2 cửa cùng lúc một cách mượt mà
             leftDoor.localRotation = Quaternion.Slerp(leftDoor.localRotation, targetLeft, time);
             rightDoor.localRotation = Quaternion.Slerp(rightDoor.localRotation, targetRight, time);
             yield return null;
         }
-
+        
         isMoving = false;
     }
 }
