@@ -8,7 +8,7 @@ public class Highlight : MonoBehaviour
     
     public Color hoverColor = Color.white;  // Màu viền khi đưa tay lại gần
     public Color selectColor = Color.red;   // Màu viền khi nắm chặt
-
+    public DoorController myDoors;
     void Start()
     {
         // Lấy component Outline và tắt nó đi khi mới bắt đầu game
@@ -31,6 +31,10 @@ public class Highlight : MonoBehaviour
     {
         outline.OutlineColor = selectColor;
         outline.enabled = true; // Bật viền màu khác
+        if (myDoors != null)
+        {
+            myDoors.ToggleDoubleDoors();
+        }
     }
     
     public void OnSelectExit()
