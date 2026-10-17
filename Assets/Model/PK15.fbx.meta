@@ -3,7 +3,27 @@ guid: b601a72d48ececa41bd8d2134f89f5ff
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronze
+    second: {fileID: 2100000, guid: 7fc9a2e4480a88a4bab77449154b038e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Japanese Ceramic
+    second: {fileID: 2100000, guid: 1aa61fac790ed1945b33ed78fdc66985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: db1c573c43e36914fa1ac9cec5fcf2b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 4be4d4a5c14f32049b3e32334865cc1e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
