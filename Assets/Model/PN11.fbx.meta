@@ -3,7 +3,22 @@ guid: 1d156709f1037a04d9d8bd36003cd4ec
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rusty black metal
+    second: {fileID: 2100000, guid: 6c1e9060e4759ab4d9825fb379b6e5cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: d90fb157c052a2a4a8ef5e7e306c481b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green_metal_rust
+    second: {fileID: 2100000, guid: 5d59ddc13247c2444897d7f9981726a9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
