@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "VR-Ma-May.slnx"
+    "dotnet.defaultSolution": "Ma May House.slnx"
 }
