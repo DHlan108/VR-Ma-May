@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8f7a7b4a7bf27d4d96b8eb673f5174e, type: 3}
   m_Name: OculusTouchControllerProximityProfile Android
   m_EditorClassIdentifier: Oculus.VR::Meta.XR.OculusTouchControllerProximityProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Proximity Interaction
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.input.oculustouch.proximity
@@ -912,7 +912,6 @@ MonoBehaviour:
   required: 0
   customRuntimeLoaderName: 
   enableSubsampledLayout: 0
-  useEyeTracking: 1
 --- !u!114 &1649341047010691723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1038,7 +1037,7 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: 8978966584869176065}
+  - {fileID: -1170106904516930638}
   - {fileID: -4512111972682944773}
   - {fileID: 3029128169341197852}
   - {fileID: -3868110371308347421}
@@ -1063,7 +1062,7 @@ MonoBehaviour:
   - {fileID: -4167023266889545498}
   - {fileID: 4291615615175275350}
   - {fileID: -6895316776543450012}
-  - {fileID: 2880235296222147735}
+  - {fileID: -738492389449812531}
   - {fileID: -2939028268223846875}
   - {fileID: 3170504919655462431}
   - {fileID: -271719167384659469}
@@ -1659,7 +1658,6 @@ MonoBehaviour:
   required: 0
   customRuntimeLoaderName: 
   enableSubsampledLayout: 0
-  useEyeTracking: 1
 --- !u!114 &8160649653980060553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1778,9 +1776,12 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
+  - {fileID: 3045694577124347128}
+  - {fileID: 8776726550836969452}
   - {fileID: 6463172412406209437}
   - {fileID: -371599441599648453}
   - {fileID: 7499400118031229901}
+  - {fileID: 3396266129379662937}
   - {fileID: 8160649653980060553}
   - {fileID: 7522104851401118893}
   - {fileID: 4989015064320967125}
@@ -1803,14 +1804,11 @@ MonoBehaviour:
   - {fileID: -2704883893507576317}
   - {fileID: 1748963627729143552}
   - {fileID: -6751848774943869599}
+  - {fileID: -6291110017815109097}
   - {fileID: 5413442321987528514}
   - {fileID: -157965147097217550}
   - {fileID: -5431550471366616006}
   - {fileID: 572131898456142255}
-  - {fileID: 3045694577124347128}
-  - {fileID: 542838042143438042}
-  - {fileID: 8706076502047141962}
-  - {fileID: -847177493025645694}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 1
@@ -1819,7 +1817,7 @@ MonoBehaviour:
     m_List: 00000000
   m_depthSubmissionMode: 0
   m_spacewarpMotionVectorTextureFormat: 0
-  m_optimizeBufferDiscards: 0
+  m_optimizeBufferDiscards: 1
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
